@@ -5,3 +5,24 @@ body {
   color: #333;
   background-color: #fff;
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ddd;
+  padding: 0 30px;
+  height: 70px;
+}
+
+header nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
