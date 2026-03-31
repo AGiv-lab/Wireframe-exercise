@@ -7,12 +7,18 @@ body {
 }
 
 header {
+  background-color: #ddd;
+  height: 70px;
+}
+
+header > div {
+  max-width: 960px;
+  margin: 0 auto;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #ddd;
   padding: 0 30px;
-  height: 70px;
 }
 
 header nav ul {
